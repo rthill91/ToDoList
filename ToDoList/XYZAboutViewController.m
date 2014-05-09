@@ -59,7 +59,8 @@
     
     UIButton *linkButton = [[UIButton alloc] initWithFrame:CGRectMake(20, 20, 200, 50)];
     linkButton.center = self.view.center;
-    linkButton.backgroundColor = [UIColor redColor];
+    linkButton.backgroundColor = [UIColor colorWithRed:0.204 green:0.667 blue:0.863 alpha:1]; // [UIColor blueColor];
+
     [linkButton setTitle:@"GitHub Page" forState:UIControlStateNormal];
     [linkButton addTarget:self action:@selector(openGitHub) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:linkButton];
