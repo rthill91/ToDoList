@@ -23,6 +23,7 @@
 		3F723C2C191A8E6F00A5474D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F723C2B191A8E6F00A5474D /* Main.storyboard */; };
 		3F723C2F191A961600A5474D /* XYZAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F723C2E191A961600A5474D /* XYZAddToDoItemViewController.m */; };
 		3F723C32191A975B00A5474D /* XYZToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F723C31191A975B00A5474D /* XYZToDoListTableViewController.m */; };
+		3FA72788191D289F00441F5B /* XYZAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA72787191D289F00441F5B /* XYZAboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		3F723C2E191A961600A5474D /* XYZAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZAddToDoItemViewController.m; sourceTree = "<group>"; };
 		3F723C30191A975B00A5474D /* XYZToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoListTableViewController.h; sourceTree = "<group>"; };
 		3F723C31191A975B00A5474D /* XYZToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoListTableViewController.m; sourceTree = "<group>"; };
+		3FA72786191D289F00441F5B /* XYZAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZAboutViewController.h; sourceTree = "<group>"; };
+		3FA72787191D289F00441F5B /* XYZAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZAboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				3F723C0B191A8D9700A5474D /* XYZAppDelegate.h */,
+				3FA72786191D289F00441F5B /* XYZAboutViewController.h */,
+				3FA72787191D289F00441F5B /* XYZAboutViewController.m */,
 				3F723C0C191A8D9700A5474D /* XYZAppDelegate.m */,
 				3F6E1294191BD5D6007ADD40 /* XYZToDoItem.h */,
 				3F6E1295191BD5D6007ADD40 /* XYZToDoItem.m */,
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA72788191D289F00441F5B /* XYZAboutViewController.m in Sources */,
 				3F723C0D191A8D9700A5474D /* XYZAppDelegate.m in Sources */,
 				3F6E1296191BD5D6007ADD40 /* XYZToDoItem.m in Sources */,
 				3F723C32191A975B00A5474D /* XYZToDoListTableViewController.m in Sources */,

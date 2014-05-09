@@ -276,6 +276,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="My To-Do List" id="zgQ-WM-feH">
+                        <barButtonItem key="leftBarButtonItem" title="About" style="plain" id="uha-VP-dbr">
+                            <connections>
+                                <action selector="AboutClicked:" destination="RT2-qB-Mdl" id="QNg-La-6fT"/>
+                                <segue destination="uT5-99-23o" kind="push" id="MO4-au-51f"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="oCH-BN-o4v">
                             <connections>
                                 <segue destination="G6X-q4-E2c" kind="modal" id="zbP-Y3-mi2"/>
@@ -335,6 +341,25 @@
             </objects>
             <point key="canvasLocation" x="1645" y="25"/>
         </scene>
+        <!--About View Controller-->
+        <scene sceneID="DU2-dJ-VSH">
+            <objects>
+                <viewController id="uT5-99-23o" customClass="XYZAboutViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xph-xY-czZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="j3b-wE-BOb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fTW-ec-bsG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ivd-7m-Gn4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dnU-V1-Ls3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1183" y="784"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZId-8Q-Xax">
             <objects>
@@ -369,7 +394,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L0T-gt-XP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1119" y="25"/>
+            <point key="canvasLocation" x="1189" y="25"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
