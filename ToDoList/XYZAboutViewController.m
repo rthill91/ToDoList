@@ -77,6 +77,10 @@
     
     [self.view addSubview:webView];
 }
+-(void)closeGitHub
+{
+    
+}
 
 
 
